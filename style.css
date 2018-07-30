@@ -98,7 +98,7 @@ input, select {
     vertical-align:middle;
 }
 
-
+.wrapper { position: relative; overflow: hidden; }
 /* W3.CSS 4.10 February 2018 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
@@ -352,3 +352,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 height: 200px;
  }
  .header h1 { color: #ffffff; }
+.aboutus-section h5 { padding-bottom: 20px; }
+.contact-info li { list-style: inside; }
+.map iframe { height: 450px; width: 100%; }
+
+ @media(max-width: 640px) {
+ 	 .header h1 { font-size: 26px;  }
+ 	 .w3-padding-64 { padding-top: 20px !important; padding-bottom: 20px !important; }
+ 	 .map iframe { height: 200px; }
+ }
