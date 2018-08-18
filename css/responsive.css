@@ -1,0 +1,5 @@
+@media(max-width:1400px){
+	.products-image {
+	    min-height: 300px;
+	}
+}
